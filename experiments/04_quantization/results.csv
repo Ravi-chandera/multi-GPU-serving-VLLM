@@ -1,0 +1,5 @@
+# Phase 4 results template
+# Step 1: use one row for each precision format.
+# Step 2: use labels such as fp16, int8, and int4.
+# Step 3: add notes if a quantized run used a different backend or kernel implementation.
+label,host,port,model,total_requests,concurrency,input_tokens,output_tokens,successful_requests,total_wall_time_sec,avg_latency_sec,p50_latency_sec,p95_latency_sec,p99_latency_sec,throughput_rps,notes

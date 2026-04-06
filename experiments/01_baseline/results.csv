@@ -1,0 +1,5 @@
+# Phase 1 results template
+# Step 1: keep one row per benchmark run.
+# Step 2: update label to describe the exact serving configuration.
+# Step 3: copy GPU memory usage or GPU utilization into notes if you capture it externally.
+label,host,port,model,total_requests,concurrency,input_tokens,output_tokens,successful_requests,total_wall_time_sec,avg_latency_sec,p50_latency_sec,p95_latency_sec,p99_latency_sec,throughput_rps,notes

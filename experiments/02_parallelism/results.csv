@@ -1,0 +1,5 @@
+# Phase 2 results template
+# Step 1: include one row per parallelism configuration.
+# Step 2: use labels such as tensor_parallel_2, tensor_parallel_4, or dual_replica_lb.
+# Step 3: add a note for interconnect type if relevant, such as PCIe or NVLink.
+label,host,port,model,total_requests,concurrency,input_tokens,output_tokens,successful_requests,total_wall_time_sec,avg_latency_sec,p50_latency_sec,p95_latency_sec,p99_latency_sec,throughput_rps,notes
