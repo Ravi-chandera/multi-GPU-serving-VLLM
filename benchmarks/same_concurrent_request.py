@@ -28,7 +28,7 @@ from locust import HttpUser, task, between, events
 from locust.runners import MasterRunner, LocalRunner
 
 # ─── CONFIG ──────────────────────────────────────────────────────────────────
-MODEL_NAME   = "mistralai/Mistral-7B-Instruct-v0.2"   # change to your model
+MODEL_NAME   = "google/gemma-3-1b-pt"   # change to your model
 MAX_TOKENS   = 256
 TEMPERATURE  = 0.7
 RESULTS_DIR  = "results"
